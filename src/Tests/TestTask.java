@@ -15,10 +15,12 @@ public class TestTask {
     @Test
     void parityCheck (){
         assertTrue(task.evenOddNumber(4));
+        assertTrue(task.evenOddNumber(5644));
     }
     @Test
     void checkingForOddNumbers (){
         assertFalse(task.evenOddNumber(7));
+        assertFalse(task.evenOddNumber(3231));
     }
     @Test
     void checkNumberInInterval (){
